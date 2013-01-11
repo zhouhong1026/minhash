@@ -22,7 +22,7 @@ public final class EntryPoint {
 		String fileName = args[0];
 		int permutationCount = Integer.parseInt(args[1]);
 		boolean usePermutator = args.length >= 3
-				&& "true".equalsIgnoreCase(args[2]);
+				&& "-e".equalsIgnoreCase(args[2]);
 
 		Timer timer = new Timer().start();
 		Problem problem = new ProblemParser().parse(fileName);

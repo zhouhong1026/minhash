@@ -11,4 +11,4 @@ and use 100 permutations and use shuffle function to generate permutations.
 
 Compute minhash similarities matrix for data from file: data/test.txt
 and use 1000 permutations and use exact permutations.
-	java -jar target/minhash.jar data/test.txt 1000 true
+	java -jar target/minhash.jar data/test.txt 1000 -e
